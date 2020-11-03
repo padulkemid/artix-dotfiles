@@ -1,0 +1,28 @@
+#!/bin/sh
+#spotify dwmblocks script by padulkemid
+#uses playerctl and spotify 
+#( spotifyd only supports premium, so I made this in general client version )
+
+if ps -C spotify > /dev/null; then
+  PLAYER="spotify"
+else
+  PLAYER="none"
+fi
+
+STATUS=$(playerctl status)
+ARTIST=$(playerctl metadata artist)
+TRACK=$(playerctl metadata title)
+
+if [ "$STATUS" = "Playing" ]; then
+  STATUS="🤘"
+fi
+
+if [ "$STATUS" = "Paused" ]; then
+  STATUS="💿"
+fi
+
+if [ "$PLAYER" = "spotify" ]; then
+  printf " %s %s - %s\n" "$STATUS" "$ARTIST" "$TRACK"
+else
+  printf " 💤 Padulkemid's playlist is snoring..."
+fi
