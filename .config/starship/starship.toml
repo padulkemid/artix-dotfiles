@@ -1,0 +1,4 @@
+[character]
+success_symbol = "[aury • -](red)"
+error_symbol = "[universe x -](blue)"
+use_symbol_for_status = true
