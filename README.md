@@ -27,6 +27,10 @@ Ritchie's face*
 ![Home Dir](https://i.imgur.com/LPfcMg0.png)  
 *do not get carried with my* `PS1`, *its because that is my gf name.* 💌
 
+## Workspace
+![Workspace](https://i.imgur.com/ytb4C2D.png)
+*uses tmux*
+
 # Progs and stuffs 📚
 
   0. `yay` over `pacman`. ( **obligatory** 👿 )
