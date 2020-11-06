@@ -9,9 +9,9 @@ else
   PLAYER="none"
 fi
 
-STATUS=$(playerctl status)
-ARTIST=$(playerctl metadata artist)
-TRACK=$(playerctl metadata title)
+STATUS=$(playerctl -p spotify status)
+ARTIST=$(playerctl -p spotify metadata artist)
+TRACK=$(playerctl -p spotify metadata title)
 
 if [ "$STATUS" = "Playing" ]; then
   STATUS="🤘"
