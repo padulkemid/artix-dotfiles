@@ -25,7 +25,6 @@ Ritchie's face*
 
 ## Minified Home Dir 🏠 ( 15 files only! )
 ![Home Dir](https://i.imgur.com/LPfcMg0.png)  
-*do not get carried with my* `PS1`, *its because that is my gf name.* 💌
 
 ## Workspace
 ![Workspace](https://i.imgur.com/ytb4C2D.png)
